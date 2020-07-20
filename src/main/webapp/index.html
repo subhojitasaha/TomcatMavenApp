@@ -4,9 +4,6 @@
         <title>TomcatMavenApp</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
-    <body>
-        <h1>Welcome to Tomcat Maven Application Home Page!</h1>
-    </body>
     <div class="main">
     <h1 id="title">This is a Survey</h1>
     <p id="description">Give us your details please!</p>
@@ -16,6 +13,19 @@
         <label id="name-label" for="name">Name</label>
         <br>
         <input id="name" type="text" placeholder="Enter your name" size="30" required/>
+    </div>
+    <div>
+        <label id="email-label" for="email">E-mail</label>
+        <br>
+        <input id="email" type="email" placeholder="Enter your email" size="30" required/>
+    </div>
+    <div>
+        <label id="number-label" for="number">Age</label>
+        <br>
+        <input id="number" type="number" min="6" max="100" placeholder="Enter your age" size="20" required/>
+    </div>
+     <div>
+        <button type="submit" id="submit">PLEASE SUBMIT</button>
     </div>
     </form>
 </html>
